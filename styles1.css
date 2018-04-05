@@ -1,0 +1,41 @@
+html{
+    background-color: black;
+    background-color: #ff953f;
+
+}
+ 
+h1{
+    
+    font-size: 100px;
+    font-family: 'Prompt', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+
+
+main{ 
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+   
+    color: white;
+    width: 500px;
+}
+
+main a{
+    padding-left: 220px;
+}
+
+button{
+    background-color: steelblue;
+    height: 20px;
+    font-weight: bold;
+}
+

@@ -1,0 +1,38 @@
+html{
+    background-color:#ff953f; 
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+input{
+    
+    border: solid 4px rgb(83, 82, 82); 
+}
+
+article{
+    font-family: 'Prompt', sans-serif;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    
+
+}
+
+section{
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: rgb(83, 82, 82) solid 5px;
+    border-radius: 10px;
+    background-color: seashell;
+}

@@ -1,10 +1,4 @@
-// Figure out endpoint to API `https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&latitude=${lat}&longitude=${long}&maxradius=10`
-// Backtics allow for javascript to be placed in a string if preceded by: ${javascript code}<--Template string
-// make form to set variables of lat and long to be placed within the URL
-// learn how to geolocate in Javascript
-// maybe a couple of input boxes in a form and a button that uses user's current location
-// Filter() out all but the closest 5 to your location
-//API key: AIzaSyCw3WAWdzApD1SkO90niza4gxr5YrZah2M
+
 var button = document.querySelector("#secretID")
 
 button.addEventListener("click", submit)

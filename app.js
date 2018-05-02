@@ -1,4 +1,3 @@
-
 var button = document.querySelector("#secretID")
 
 button.addEventListener("click", submit)
@@ -30,22 +29,22 @@ function populateTheThing(lat, long){
         document.querySelector("#location1").textContent = "location: " + response.features[0].properties.place
         document.querySelector("#coordinates1").textContent =  "latitude: " + response.features[0].geometry.coordinates[1] + ", " +
             "longitude: " + response.features[0].geometry.coordinates[0]
-        ///////////
+        
         document.querySelector("#mag2").textContent = "magnitude: " + response.features[1].properties.mag
         document.querySelector("#location2").textContent = "location: " + response.features[1].properties.place
         document.querySelector("#coordinates2").textContent = "latitude: " + response.features[1].geometry.coordinates[1]+ ", " +
         "longitude: " + response.features[1].geometry.coordinates[0]
-        ///////////
+        
         document.querySelector("#mag3").textContent = "magnitude: " + response.features[2].properties.mag
         document.querySelector("#location3").textContent = "location: " + response.features[2].properties.place
         document.querySelector("#coordinates3").textContent = "latitude: " + response.features[2].geometry.coordinates[1]+ ", " +
         "longitude: " +  response.features[2].geometry.coordinates[0]
-        ///////////
+      
         document.querySelector("#mag4").textContent = "magnitude: " + response.features[3].properties.mag
         document.querySelector("#location4").textContent = "location: " + response.features[3].properties.place
         document.querySelector("#coordinates4").textContent = "latitude: " + response.features[3].geometry.coordinates[1]+ ", " +
         "longitude: " +  response.features[3].geometry.coordinates[0]
-        ///////////
+      
         document.querySelector("#mag5").textContent = "magnitude: " + response.features[4].properties.mag
         document.querySelector("#location5").textContent = "location: " + response.features[4].properties.place
         document.querySelector("#coordinates5").textContent = "latitude: " + response.features[4].geometry.coordinates[1]+", " +

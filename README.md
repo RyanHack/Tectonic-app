@@ -2,5 +2,7 @@ Proof of concept app linking together 2 api's: Google Maps and the US Government
 Languages used: JS, HTML, CSS
 
 
+No installation required
+
 LinkIn:https://www.linkedin.com/in/rhackemer/
 email: Rhackemer@Gmail.com

@@ -1,41 +1,34 @@
-html{
+html {
     background-color: black;
     background-color: #ff953f;
-
 }
- 
-h1{
-    
+
+h1 {
     font-size: 100px;
     font-family: 'Prompt', sans-serif;
 }
 
-body{
+body {
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: center;
-    
 }
 
-
-
-main{ 
+main {
     display: flex;
     align-content: center;
     flex-direction: column;
-   
     color: white;
     width: 500px;
 }
 
-main a{
+main a {
     padding-left: 220px;
 }
 
-button{
+button {
     background-color: steelblue;
     height: 20px;
     font-weight: bold;
 }
-
